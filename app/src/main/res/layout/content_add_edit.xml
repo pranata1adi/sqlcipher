@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AddEditActivity"
+    tools:showIn="@layout/activity_add_edit"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/enter_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:hint="Masukkan teks..."
+        android:inputType="text"
+        android:padding="12dp"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/enter_priority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:hint="Masukkan prioritas .."
+        android:inputType="number"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textSize="12sp" />
+</LinearLayout>
